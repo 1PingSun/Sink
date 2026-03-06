@@ -1,7 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sink",
-  "main": ".output/server/index.mjs",
   "pages_build_output_dir": "dist",
   "assets": {
     "binding": "ASSETS",
@@ -47,6 +46,6 @@
     }
   ],
   "triggers": {
-    "crons": ["0 0 * * *"] 
+    "crons": ["0 0 * * *"]
   }
 }
